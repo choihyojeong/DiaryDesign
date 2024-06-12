@@ -4,7 +4,7 @@ public class DiaryEntry {
     private LocalDate date;
     private String title;
     private String content;
-    private String weather;  // Weather 정보를 포함할 수 있습니다.
+    private String weather; 
 
     public DiaryEntry(LocalDate date, String title, String content, String weather) {
         this.date = date;
@@ -47,6 +47,6 @@ public class DiaryEntry {
 
     @Override
     public String toString() {
-        return "Date: " + date + "\nTitle: " + title + "\nContent: " + content + "\nWeather: " + weather;
+        return "날짜: " + date + "\n제목: " + title + "\n한 줄 일기: " + content + "\n날씨: " + weather;
     }
 }

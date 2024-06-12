@@ -12,7 +12,8 @@ public class UserManager {
         if (!users.containsKey(username)) {
             users.put(username, password);
         } else {
-            System.out.println("User already exists.");
+            System.out.println("이미 존재하는 아이디입니다.");
+            // 회원가입 정보 작성 화면으로 이동하는 코드 필요
         }
     }
 
